@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Imagens/ICONE.png">
+    <title>Luminary Games</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            color: black;
+        }
+        
+        .form-control {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="imagens/ICONE.png" alt="Luminary Games" width="40"> Luminary
+                Games</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre" style="color:white">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#recursos" style="color:white">Recursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#precos" style="color:white">Preços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato" style="color:white">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="hero-section text-white text-center d-flex align-items-center"
+        style="background-image: url('imagens/card2.jpg'); height: 100vh;">
+        <div class="container">
+            <h1 class="display-4">Bem-vindo à Luminary Games</h1>
+            <p class="lead">Explorando novos mundos, uma aventura de cada vez.</p>
+            <a href="#recursos" class="btn btn-primary btn-lg">Saiba Mais</a>
+        </div>
+    </section>
+    <section id="recursos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Principais Recursos</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="./Imagens/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Comunidade vibrante</h5>
+                            <p class="card-text">A Luminary Games reconhece a importância da colaboração no
+                                desenvolvimento de jogos. A plataforma oferece recursos robustos de compartilhamento e
+                                colaboração, permitindo que os desenvolvedores trabalhem juntos em projetos em tempo
+                                real.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./Imagens/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title"> Acessibilidade</h5>
+                            <p class="card-text">A Luminary Games foi projetada com a acessibilidade em mente,
+                                tornando-a ideal para desenvolvedores experientes e iniciantes. A plataforma oferece uma
+                                interface intuitiva e fácil de usar, além de uma extensa biblioteca de tutoriais e
+                                documentação. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="./Imagens/card1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-center">Ferramentas Poderosas</h5>
+                            <p class="card-text">A Luminary Games oferece aos desenvolvedores um conjunto completo
+                                de ferramentas de criação de jogos, desde modelagem 3D e animação até design de
+                                níveis e scripting. O motor gráfico da plataforma é otimizado para alto desempenho.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <div class=cor-carrosel>
+                <h2 class="text-center mb-4" style="color: black;">Depoimentos</h2>
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active text-center" style="color: black;">
+                            <p class="lead" style="color: black;">"A Luminary Games redefine o que significa diversão em jogos digitais."</p>
+                            <p>- Cliente Satisfeito</p>
+                        </div>
+                        <div class="carousel-item text-center" style="color: black;">
+                            <p class="lead" style="color: black;" >"Cada jogo é uma experiência única e inesquecível."</p>
+                            <p>- Jogador Apaixonado</p>
+                        </div>
+                        <div class="carousel-item text-center" style="color: black;">
+                            <p class="lead" style="color: black;">"Incrível atenção aos detalhes e jogabilidade fantástica."</p>
+                            <p>- Crítico de Jogos</p>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="precos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Planos de Preços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 fw-normal">Básico</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mês</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Jogo grátis</li>
+                                <li>Acesso limitado</li>
+                                <li>Suporte comunitário</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Inscreva-se
+                                grátis</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 fw-normal">Padrão</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mês</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Todos os jogos</li>
+                                <li>Acesso moderado</li>
+                                <li>Suporte prioritário</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Assine agora</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 fw-normal">Premium</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mês</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Todos os jogos</li>
+                                <li>Acesso ilimitado</li>
+                                <li>Suporte 24/7</li>
+                            </ul>
+                            <button type="button" class="w-100 btn btn-lg btn-primary">Assine agora</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contato" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4" style="color: black;">Contato</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label" style="color: black;">Nome</label>
+                    <input type="text" class="form-control" id="name" required style="color: black;">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label" style="color: black;">E-mail</label>
+                    <input type="email" class="form-control" id="email" required style="color: black;">
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label" style="color: black;">Assunto</label>
+                    <input type="text" class="form-control" id="subject" required style="color: black;">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label" style="color: black;">Mensagem</label>
+                    <textarea class="form-control" id="message" rows="4" required style="color: black;"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="d-inline-block mx-3">
+                        <h3>Matheus André</h3>
+                        <a href="https://www.linkedin.com/in/matheu-sandregalvaodasilva/" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/matheusandre1" class="text-white"><i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="d-inline-block mx-3">
+                        <h3>João Vitor</h3>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-v%C3%ADtor-gon%C3%A7alves-soares-dos-santos-770373160/" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/jvgss" class="text-white"><i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="d-inline-block mx-3">
+                        <h3>Fabrycio Medeiros</h3>
+                        <a href="https://www.linkedin.com/in/fabrycio-erico-medeiros-66458b182/" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/FabrycioMedeiros" class="text-white"><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+            <p class="mb-0">
+                &copy; 2024 Luminary Games. Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

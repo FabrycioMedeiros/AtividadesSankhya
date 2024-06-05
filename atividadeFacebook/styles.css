@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 50px;
+}
+
+.left-section h1 {
+    font-size: 48px;
+    color: #1877f2;
+    font-weight: bold;
+}
+
+.left-section p {
+    font-size: 24px;
+    color: #1c1e21;
+}
+
+.right-section {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    height: 52px;
+    margin-bottom: 10px;
+    padding: 0 16px;
+    font-size: 16px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.login-form button {
+    height: 52px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-form button:hover {
+    background-color: #166fe5;
+}
+
+.login-form a {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.login-form .create-account {
+    height: 48px; 
+    background-color: #42b72a;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.login-form .create-account:hover {
+    background-color: #36a420;
+}
+
+.footer-message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-message p {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer-message p a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-message p a:hover {
+    text-decoration: underline;
+}

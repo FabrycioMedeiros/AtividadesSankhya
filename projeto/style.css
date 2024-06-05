@@ -1,0 +1,67 @@
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #1C1C1C;
+}
+
+h2 {
+    color: white;
+}
+
+.feature-icon {
+    font-size: 3rem;
+    color: #FFD700;
+}
+
+.carousel-caption-color {
+    background-color: #1C1C1C;
+
+}
+
+
+.cor-carrosel {
+    background-color: #FFD700;
+
+}
+
+
+footer {
+    position: relative;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+}
+
+
+.cor-carrosel {
+
+    color: #FFD700;
+}
+
+.carousel-caption-color {
+    background-color: #1C1C1C;
+
+}
+
+
+.cor-carrosel {
+    background-color: #FFD700;
+
+}
+
+
+footer {
+    position: relative;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+}
