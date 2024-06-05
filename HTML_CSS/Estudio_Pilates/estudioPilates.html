@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Estúdio de Pilates">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkPilates</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff; 
+            color: #333;
+            padding: 20px;
+        }
+
+        header, footer {
+            background: #28a745;
+            padding: 20px;
+            color: #fff;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        nav a {
+            color: #28a745;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #28a745;
+            border-bottom: 2px solid #28a745;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .profile-photo, .service-photo, .trainer-photo, .contact-photo {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 10px auto;
+            border: 3px solid #28a745;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+
+        li::before {
+            content: '✔ ';
+            color: #28a745;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WorkPilates</h1>
+        <p>Olivia de Almeida, 109, Bairro Cristo Redentor, João Pessoa - PB</p>
+        <p>Telefone: +55 83 12345-6789 | E-mail: contato@workpilates.com</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">Sobre Nós</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#instrutores">Instrutores</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <img src="img/img0.jpeg" alt="Foto do Estúdio" class="profile-photo">
+            <p>Nosso estúdio de Pilates é dedicado a promover a saúde e o bem-estar de nossos clientes. Com uma equipe qualificada e um ambiente acolhedor, oferecemos aulas de Pilates personalizadas para atender às necessidades individuais de cada aluno.</p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <img src="img/img1.jpeg" alt="Serviços de Pilates" class="service-photo">
+            <ul>
+                <li>Aulas de Pilates em Grupo</li>
+                <li>Aulas de Pilates Personalizadas</li>
+                <li>Treinamento Funcional</li>
+                <li>Consultoria Nutricional</li>
+                <li>Workshops e Eventos</li>
+            </ul>
+        </section>
+
+        <section id="instrutores">
+            <h2>Instrutores</h2>
+            <img src="img/img4.jpeg" alt="Instrutores de Pilates" class="trainer-photo">
+            <ul>
+                <li>Instrutor 1 - Especialista em Reabilitação</li>
+                <li>Instrutor 2 - Especialista em Pilates para Gestantes</li>
+                <li>Instrutor 3 - Especialista em Pilates Avançado</li>
+                <li>Instrutor 4 - Especialista em Alongamento e Flexibilidade</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <img src="img/logo.jpg" alt="Contato" class="contact-photo">
+            <p>Para mais informações ou para agendar uma aula experimental, entre em contato conosco:</p>
+            <p>Telefone: +55 83 12345-6789</p>
+            <p>E-mail: contato@workpilates.com</p>
+            <p>Olivia de Almeida, 109, Bairro Cristo Redentor, João Pessoa - PB</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>WorkPilates &copy; 2024. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
